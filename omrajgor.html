@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Om Rajgor Portfolio</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: "Courier New", monospace;
+      padding: 20px;
+    }
+    .terminal {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .typing {
+      font-size: 2em;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #00ff00;
+      width: 0;
+      animation: typing 4s steps(30, end) forwards, blink 0.8s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+    h2 {
+      color: #00ff00;
+      border-bottom: 1px solid #00ff00;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    .profile-pic {
+      float: right;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #00ff00;
+      margin-left: 20px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: ">> ";
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 10px 5px 0 0;
+      border: 1px solid #00ff00;
+      color: #00ff00;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      position: relative;
+    }
+    .btn::after {
+      content: " _";
+      animation: blinkBtn 1s step-end infinite;
+      position: absolute;
+      right: 5px;
+    }
+    @keyframes blinkBtn {
+      50% { opacity: 0; }
+    }
+    .btn:hover {
+      background: #00ff00;
+      color: #000;
+    }
+    .footer {
+      border-top: 1px solid #00ff00;
+      padding-top: 15px;
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+    p::before {
+      content: ">> ";
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="typing">OM RAJGOR – Cybersecurity & GRC Professional</div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: omrajgor1712@gmail.com</p>
+      <p>Location: Ahmedabad, India</p>
+      <a href="mailto:omrajgor1712@gmail.com" class="btn">Email Me</a>
+      <a href="https://linkedin.com/in/om-rajgor" class="btn" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>Working as Governance risk and compliance analyst, also known framework like SOC2, ISO27001, SEBI-CSCRF. Additionally cybersecurity professional with hands-on experience in VAPT, digital forensics, incident response, and dark web monitoring. Certified by Delhi Police Cyber Challenge and CID Cybercrime. Passionate about threat intelligence, risk mitigation, and securing digital ecosystems.</p>
+    </div>
+
+    <div class="section">
+      <h2>Key Skills</h2>
+      <ul>
+        <li>GRC & Compliance: SOC 2, ISO 27001, Risk Assessment, Risk Register, Policy Development, Gap Analysis</li>
+        <li>Cybersecurity: Vulnerability Assessment, Incident Response, Security Awareness, IAM</li>
+        <li>Digital Forensics: UFED, Cellebrite, i9 Software, FTK Imager, Autopsy</li>
+        <li>Technical Tools: Burp Suite, Wireshark, Nmap, Metasploit</li>
+        <li>Telecom Forensics: CDR Analysis, Tower Dump, IP Tracing, Email Header Analysis</li>
+        <li>Soft Skills: Critical Thinking, Communication, Report Writing</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Professional Experience</h2>
+      <p><b>GRC Analyst – Securis360</b> (Apr 2025 – Present)</p>
+      <ul>
+        <li>Conduct SOC 2 and ISO 27001 readiness assessments...</li>
+        <li>Create and maintain organizational policies, procedures, and risk registers...</li>
+      </ul>
+      <p><b>IT Consultant – SOG, Gujarat Police</b> (Mar 2025 – Present)</p>
+      <ul>
+        <li>Performed CDR analysis and tower dump mapping...</li>
+        <li>Extracted and analyzed mobile data using UFED...</li>
+      </ul>
+      <p><b>Cybercrime Intern – CID Crime</b> (Nov 2024 – Mar 2025)</p>
+      <ul>
+        <li>Investigated fraud, impersonation, and online scams...</li>
+        <li>Conducted IP tracing, email header analysis, and dark web monitoring...</li>
+      </ul>
+      <p><b>Cybersecurity Analyst Intern – Shadow Fox Security</b> (Jan 2024 – Apr 2024)</p>
+      <ul>
+        <li>Conducted vulnerability assessments using Burp Suite, Nmap, Wireshark...</li>
+        <li>Assisted in dark web monitoring and incident reports...</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>B.Tech – Computer Science & Engineering (Cyber Security), Parul University, 2021 | CGPA: 7.27</p>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Cyber Challenge Certificate – Delhi Police</li>
+        <li>Digital Forensics Training – CID Cybercrime</li>
+        <li>Deloitte Cybersecurity Virtual Experience Program – Forage</li>
+        <li>Tata Group IAM Developer Virtual Experience Program – Forage</li>
+        <li>AIG Shields Up – Forage</li>
+        <li>CompTIA Security+ (In Progress – Target: Sep 2025)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Recognized by CID Gujarat and IPS Kutch for cybercrime investigation.</li>
+        <li>Delivered compliance reports leading to SOC 2 & ISO 27001 audits.</li>
+        <li>Featured in News Kutch and Akila News for cybercrime resolutions.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li>SOC 2 Compliance Roadmap – Designed policies, controls, and audit evidence.</li>
+        <li>Social Media Crime Tracking – Fraudulent content tracking using OSINT & forensics.</li>
+        <li>Dark Web Threat Intelligence – Identified leaked credentials and reported activity.</li>
+      </ul>
+    </div>
+
+    <div class="section" style="text-align:center;">
+      <a href="OmRajgor_Resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Om Rajgor. All Rights Reserved.
+    </div>
+  </div>
+</body>
+</html>
